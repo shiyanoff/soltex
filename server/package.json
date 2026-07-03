@@ -1,0 +1,56 @@
+{
+  "name": "mergen_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src/server.ts --format esm --out-dir dist && cp -r src/admin dist/admin",
+    "start": "node dist/server.js",
+    "create-admin": "tsx src/scripts/create-admin.ts"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  },
+  "dependencies": {
+    "@adminjs/express": "^6.1.1",
+    "@adminjs/prisma": "^5.0.4",
+    "@adminjs/upload": "^4.0.2",
+    "@prisma/adapter-pg": "^7.6.0",
+    "@prisma/client": "4",
+    "@tiptap/core": "^3.22.2",
+    "@tiptap/pm": "^3.22.2",
+    "@tiptap/starter-kit": "^3.22.2",
+    "adminjs": "^7.8.17",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.19.0",
+    "module-alias": "^2.3.4",
+    "multer": "^2.1.1",
+    "node": "^25.9.0",
+    "nodemailer": "^8.0.5",
+    "pg": "^8.20.0",
+    "prisma": "4",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.5.2",
+    "@types/nodemailer": "^8.0.0",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.14",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "private": true
+}

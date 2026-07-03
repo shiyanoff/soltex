@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-soltex-red: #C41E3A;
+  --color-soltex-graphite: #1A1A1A;
+  --color-soltex-steel: #8E9299;
+  --color-soltex-light-gray: #F5F5F5;
+  --color-soltex-border: rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-soltex-light-gray text-soltex-graphite font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight uppercase;
+  }
+}
+
+.vertical-rail {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.industrial-grid {
+  background-size: 60px 60px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-soltex-graphite);
+  color: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

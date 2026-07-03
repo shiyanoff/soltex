@@ -1,0 +1,59 @@
+/* input */
+.adminjs_Input {
+    border-radius: 8px !important;
+    border: 1px solid #E2E8F0 !important;
+    padding: 10px 12px !important;
+    margin-bottom: 0px !important;
+}
+
+/* textarea */
+textarea.adminjs_Input {
+    border-radius: 8px !important;
+    min-height: 100px !important;
+}
+
+/* focus */
+.adminjs_Input:focus {
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.adminjs_Select > div {
+    border-radius: 8px !important;
+    border: 1px solid #E2E8F0 !important;
+    min-height: 45px;
+    box-shadow: none !important;
+}
+
+/* hover */
+.adminjs_Select > div:hover {
+    border-color: #2563EB !important;
+}
+
+/* focus */
+.adminjs_Select > div:focus-within {
+    border-color: #2563EB !important;
+    box-shadow: 0 0 0 1px rgba(37,99,235,0.2) !important;
+}
+
+/* ошибка */
+.adminjs_Select [aria-invalid="true"] > div,
+.adminjs_Select.error > div {
+    border-color: #DC2626 !important;
+    background: #FEF2F2;
+}
+
+button[color="primary"] {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 8px;
+    min-width: 10rem; !important;
+}
+
+.adminjs_Badge {
+    background: rgba(196,30,58,.1) !important;
+    color: #C41E3A !important;
+    border: 1px solid rgba(196,30,58,.2) !important;
+    border-radius: 999px !important;
+}

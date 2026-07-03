@@ -1,0 +1,175 @@
+{
+    "actions": {
+        "new": "Создать",
+        "edit": "Редактировать",
+        "show": "Просмотр",
+        "delete": "Удалить",
+        "bulkDelete": "Массовое удаление",
+        "list": "Список"
+    },
+    "buttons": {
+        "save": "Сохранить",
+        "addNewItem": "Добавить",
+        "filter": "Фильтр",
+        "filterActive": "Фильтр ({{count}})",
+        "applyChanges": "Применить",
+        "resetFilter": "Сбросить",
+        "confirmRemovalMany": "Удалить {{count}} запись?",
+        "confirmRemovalMany_plural": "Удалить {{count}} записей?",
+        "logout": "Выйти",
+        "login": "Войти",
+        "seeTheDocumentation": "См. документацию",
+        "createFirstRecord": "Создать первую запись",
+        "cancel": "Отмена",
+        "confirm": "Подтвердить",
+        "contactUs": "Связаться с нами"
+    },
+    "components": {
+        "Upload": {
+            "uploadFile": "Загрузить файл",
+            "dropZone": "Перетащите файл сюда",
+            "or": "или",
+            "browse": "выберите файл",
+            "delete": "Удалить файл"
+        },
+        "LanguageSelector": {
+            "availableLanguages": {
+                "de": "Немецкий",
+                "en": "Английский",
+                "es": "Испанский",
+                "it": "Итальянский",
+                "ja": "Японский",
+                "pl": "Польский",
+                "pt-BR": "Португальский (Бразилия)",
+                "ua": "Украинский",
+                "zh-CN": "Китайский"
+            }
+        },
+        "Login": {
+            "welcomeHeader": "Добро пожаловать",
+            "welcomeMessage": "Войдите в систему",
+            "properties": {
+                "email": "Логин",
+                "password": "Пароль"
+            },
+            "loginButton": "Войти"
+        }
+    },
+    "labels": {
+        "navigation": "",
+        "pages": "Страницы",
+        "selectedRecords": "Выбрано: {{selected}}",
+        "filters": "Фильтры",
+        "adminVersion": "Админ: {{version}}",
+        "appVersion": "Приложение: {{version}}",
+        "dashboard": "Главная",
+        "Category": "Категории",
+        "Item": "Проекты",
+        "HomepageContent": "Главная страница",
+        "Lead": "Заявки"
+    },
+    "resources": {
+        "Category": {
+            "label": "Категории",
+            "properties": {
+                "titleRu": "Наименование (RU)",
+                "titleEn": "Наименование (EN)",
+                "titleZh": "Наименование (ZH)",
+                "layoutType": "Шаблон отображения",
+                "createdAt": "Дата создания",
+                "updatedAt": "Дата обновления"
+            }
+        },
+        "Item": {
+            "label": "Проекты",
+            "properties": {
+                "titleRu": "Наименование (RU)",
+                "titleEn": "Наименование (EN)",
+                "titleZh": "Наименование (ZH)",
+                "descriptionRu": "Описание (RU)",
+                "descriptionEn": "Описание (EN)",
+                "descriptionZh": "Описание (ZH)",
+                "countryRu": "Страна постройки (RU)",
+                "countryEn": "Страна постройки (EN)",
+                "countryZh": "Страна постройки (ZH)",
+                "projectYear": "Год постройки",
+                "image": "Картинка",
+                "uploadImage": "Картинка",
+                "category": "Категория",
+                "createdAt": "Дата создания",
+                "updatedAt": "Дата обновления"
+            }
+        },
+        "HomepageContent": {
+            "label": "Главная страница",
+            "properties": {
+                "heroTitleRu": "Hero заголовок (RU)",
+                "heroTitleEn": "Hero заголовок (EN)",
+                "heroTitleZh": "Hero заголовок (ZH)",
+                "heroDescriptionRu": "Hero описание (RU)",
+                "heroDescriptionEn": "Hero описание (EN)",
+                "heroDescriptionZh": "Hero описание (ZH)",
+                "heroQuoteRu": "Hero цитата (RU)",
+                "heroQuoteEn": "Hero цитата (EN)",
+                "heroQuoteZh": "Hero цитата (ZH)",
+                "heroImage": "Hero картинка",
+                "uploadImage": "Hero картинка",
+                "createdAt": "Дата создания",
+                "updatedAt": "Дата обновления"
+            }
+        },
+        "Lead": {
+            "label": "Заявки",
+            "properties": {
+                "name": "Имя",
+                "phone": "Телефон",
+                "comment": "Комментарий",
+                "createdAt": "Дата создания",
+                "updatedAt": "Дата обновления"
+            }
+        }
+    },
+    "properties": {
+        "length": "Длина",
+        "from": "От",
+        "to": "До",
+        "id": "ID",
+        "title": "Наименование",
+        "videoUrl": "Ссылка на видео (Youtube)"
+    },
+    "messages": {
+        "successfullyBulkDeleted": "Удалена {{count}} запись",
+        "successfullyBulkDeleted_plural": "Удалено {{count}} записей",
+        "successfullyDeleted": "Запись успешно удалена",
+        "successfullyUpdated": "Запись успешно обновлена",
+        "successfullyCreated": "Запись успешно создана",
+        "thereWereValidationErrors": "Обнаружены ошибки валидации",
+        "forbiddenError": "Нет доступа к действию {{actionName}}",
+        "anyForbiddenError": "Нет доступа",
+        "bulkDeleteError": "Ошибка при массовом удалении",
+        "errorFetchingRecords": "Ошибка загрузки списка",
+        "errorFetchingRecord": "Ошибка загрузки записи",
+        "noRecordsSelected": "Записи не выбраны",
+        "theseRecordsWillBeRemoved": "Эта запись будет удалена",
+        "theseRecordsWillBeRemoved_plural": "Эти записи будут удалены",
+        "pickSomeFirstToRemove": "Сначала выберите записи",
+        "error404Resource": "Ресурс не найден",
+        "error404Action": "Действие не найдено или запрещено",
+        "error404Record": "Запись не найдена",
+        "seeConsoleForMore": "Подробности смотрите в консоли",
+        "noActionComponent": "Компонент действия не найден",
+        "noRecordsInResource": "Нет записей в ресурсе",
+        "noRecords": "Нет данных",
+        "confirmDelete": "Вы уверены, что хотите удалить эту запись?",
+        "welcomeOnBoard_title": "Добро пожаловать",
+        "welcomeOnBoard_subtitle": "Начните работу с системой",
+        "invalidCredentials": "Неверный логин или пароль",
+        "pageNotFound_title": "Страница не найдена",
+        "pageNotFound_subtitle": "Запрашиваемая страница не существует",
+        "componentNotFound_title": "Компонент не найден",
+        "componentNotFound_subtitle": "Компонент не был указан"
+    },
+    "pages": {
+        "dashboard": "Главная"
+    }
+}
